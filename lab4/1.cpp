@@ -18,6 +18,10 @@ int main()
 
     cout<<*ptr<<endl;
 
+    *ptr=25;
+
+    cout<<variable<<endl;
+
 
     return 0;
 }
