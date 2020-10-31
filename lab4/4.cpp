@@ -10,7 +10,7 @@ int main()
 {
     map<string, int> dictionary;
 
-    ifstream input("lotem.txt");
+    ifstream input("txt.txt");
 
     if (input.is_open()){
         string word;
