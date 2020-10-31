@@ -10,15 +10,13 @@ int main()
         numbers[i]=i;
     }
 
-    //cout<<&numbers[0]<<endl;
-    //cout<<&numbers[1]<<endl;
-    //cout<<&numbers[2]<<endl;
-    //cout<<&numbers[3]<<endl;
-    //cout<<&numbers[4]<<endl;
-
     int *ptr_numbers=&numbers[0];
-    ptr_numbers+=3;
-    cout<<*ptr_numbers<<endl;
+
+    for (int i=0;i<4;i++){
+        cout<<*ptr_numbers<<endl;
+        ++ptr_numbers;
+    }
+
 
     return 0;
 }
