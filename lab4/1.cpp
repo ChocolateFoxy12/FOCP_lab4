@@ -14,6 +14,10 @@ int main()
     cout<<"memory address of variable"<<&variable<<endl;
     cout<<"memory address of ptr"<<&ptr<<endl;
 
+    ptr=&variable;
+
+    cout<<*ptr<<endl;
+
 
     return 0;
 }
